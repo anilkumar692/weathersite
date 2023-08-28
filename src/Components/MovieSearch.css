@@ -1,0 +1,22 @@
+.container{
+border-radius: 50px;
+/* background: linear-gradient(145deg, #706363, #857676); */
+box-shadow:  20px 20px 60px #5c5151,-20px -20px 60px #9c8b8b;
+width:900px;
+height:500px;
+margin: 0px auto;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    display: flex;
+}
+.moviedetails{
+    color: white;
+}
+.movieposter{
+    object-fit: contain;
+}

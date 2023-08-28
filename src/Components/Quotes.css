@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-origin: border-box;
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: red;
+    background: url('D:\reacttut\awesomeapp\src\images\max-bender-VmX3vmBecFE-unsplash (1).jpg');
+}
+.quotebox1{
+    position: relative;
+    width: 400px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    border: none;
+    
+    transform: translate(-50%,-50%);
+}
+.quotebox{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 4px 3px rgba(18, 45, 128, 0.85);
+   
+}
+.buttonbox button{
+   
+    background-color: rgb(30, 30, 247);
+    width: 110px;
+    height: 40px;
+    color: white;
+    font-weight:bold ;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+.buttonbox{
+    border: none;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 3px;
+    
+}
