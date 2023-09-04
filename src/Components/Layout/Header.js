@@ -81,7 +81,7 @@ function Header() {
                         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                             <ul className='navigation-menu'>
                                 <li>
-                                    <NavLink activeClassName="active" to={"/"}>Home</NavLink>
+                                    <NavLink activeclassname="active" to={"/"}>Home</NavLink>
                                 </li>
                                 <li>
                                     <NavLink to={"/Menu"}>Menu</NavLink>

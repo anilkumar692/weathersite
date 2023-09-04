@@ -4,14 +4,16 @@ import { Box, Typography } from '@mui/material'
 
 function About() {
   return (
-    <Layot>
+    <Layot >
       <Box sx={{
         my:15,
+        backgroundColor:'#FFE5E5',
         textAlign:"center",
         "& h4":{
           fontWeight:"bold",
           my:2,
           fontSize:"2rem",
+          
           
         },
         "& p":{

@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+
 // import Layot from './Components/Layout/Layot'
-// import {BrowserRouter,Routes,Route} from 'react-router-dom'
-// import Home from './pages/Home'
-// import About from './pages/About'
-// import Contact from './pages/Contact'
-// import Menu from './pages/Menu'
-// import PagrNotfound from './pages/PagrNotfound'
-import Weather from './Components/Weather'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Menu from './pages/Menu'
+import PagrNotfound from './pages/PagrNotfound'
+// import Weather from './Components/Weather'
 // import Quotes from './Components/Quotes'
 // import ChatApp from './Components/ChatApp'
 
@@ -43,6 +44,10 @@ import Weather from './Components/Weather'
 // import Greet from './Components/Greet'
 // import Welcome from './Components/Welcome'
 // import Hello from './Components/Hello'
+// import Functioncomp from './Components/Functioncomp';
+// import Anilonclick from './Components/Anilonclick';
+// import AnilState from './Components/AnilState';
+
 
 const mystyle = {
   // background: 'linear-gradient(145deg, #706363, #857676)',
@@ -91,7 +96,7 @@ export default class App extends Component {
         {/* <Quotes></Quotes> */}
         {/* <ChatApp></ChatApp> */}
         
-        {/* <BrowserRouter>
+        <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
@@ -100,8 +105,12 @@ export default class App extends Component {
           <Route path='*' element={<PagrNotfound/>}/>
          
         </Routes>
-        </BrowserRouter> */}
-        <Weather></Weather>
+        </BrowserRouter>
+        {/* <Weather></Weather> */}
+       {/* <Functioncomp></Functioncomp> */}
+       {/* <Anilonclick></Anilonclick> */}
+       {/* <AnilState name="anil"></AnilState> */}
+       
       </div>
     )
   }

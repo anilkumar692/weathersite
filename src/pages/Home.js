@@ -1,13 +1,14 @@
 import React from 'react'
 import Layot from '../Components/Layout/Layot'
 import {Link} from '@mui/material'
-import cofee from '../images/cofee.jpg'
+import blackres2 from '../images/blackres2.jpg'
 import '../styles/HomeStyle.css'
+
 
 function Home() {
   return (
     <Layot>
-      <div className="home" style={{background:`url(${cofee})`}}>
+      <div className="home" style={{backgroundImage:`url(${blackres2})`}}>
         <div className="headercontainer">
           <h1>Food Website</h1>
           <p>we serve the best</p>
