@@ -68,3 +68,6 @@ export const itemlist=[
         id:8
     }
 ]
+// "homepage": "https://anilkumar692.github.io/restaurentsite/",
+// "predeploy": "npm run build",
+//    "deploy": "gh-pages -d build",

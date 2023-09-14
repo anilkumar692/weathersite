@@ -1,13 +1,21 @@
 import React, { Component } from 'react'
+// import MuiSelect from './Components/MuiSelect'
+// import MUitextfield from './Components/MUitextfield'
+// import MUIButtons from './Components/MUIButtons'
+// import HeadingMui from './Components/HeadingMui'
+
+
+
 
 // import Layot from './Components/Layout/Layot'
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Menu from './pages/Menu'
-import PagrNotfound from './pages/PagrNotfound'
-// import Weather from './Components/Weather'
+// import {BrowserRouter,Routes,Route} from 'react-router-dom'
+// import Home from './pages/Home'
+// import About from './pages/About'
+// import Contact from './pages/Contact'
+// import Menu from './pages/Menu'
+// import PagrNotfound from './pages/PagrNotfound'
+
+import Weather from './Components/Weather'
 // import Quotes from './Components/Quotes'
 // import ChatApp from './Components/ChatApp'
 
@@ -49,15 +57,15 @@ import PagrNotfound from './pages/PagrNotfound'
 // import AnilState from './Components/AnilState';
 
 
-const mystyle = {
-  // background: 'linear-gradient(145deg, #706363, #857676)',
-
-}
 export default class App extends Component {
 
   render() {
     return (
-      <div style={mystyle}>
+      <div>
+        {/* <MUIButtons></MUIButtons> */}
+        {/* <MUitextfield></MUitextfield> */}
+        {/* <MuiSelect></MuiSelect> */}
+ {/* <HeadingMui></HeadingMui> */}
         {/* <Greet  name="Bruce" heroName="batman">
           <h5>hello this is a</h5>
          </Greet>
@@ -91,12 +99,12 @@ export default class App extends Component {
         {/* <Axios></Axios> */}
         {/* <UseReduce></UseReduce> */}
         {/* <Bmi></Bmi> */}
-        {/* <Weather></Weather> */}
+        <Weather></Weather>
         {/* <Moviesearch1></Moviesearch1> */}
         {/* <Quotes></Quotes> */}
         {/* <ChatApp></ChatApp> */}
         
-        <BrowserRouter>
+        {/* <BrowserRouter basename='/restaurentsite'>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/About' element={<About/>}/>
@@ -105,12 +113,13 @@ export default class App extends Component {
           <Route path='*' element={<PagrNotfound/>}/>
          
         </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
         {/* <Weather></Weather> */}
        {/* <Functioncomp></Functioncomp> */}
        {/* <Anilonclick></Anilonclick> */}
        {/* <AnilState name="anil"></AnilState> */}
-       
+      
+      
       </div>
     )
   }
